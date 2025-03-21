@@ -9,7 +9,8 @@ SELECT COUNT(*) FROM table_name;
 ```
 We should get the value 12
 
-Aggregate functions "aggregate" data, combining and changing it into some output based on the input. Regardless of
+Aggregate functions "aggregate" data, combining and changing it into so
+me output based on the input. Regardless of
 how large that input is, the output will always be a single value. If we repeated the above query but the table had
 10,000 rows, the result would still be a single value: 10,000.
 
